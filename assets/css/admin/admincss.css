@@ -1,0 +1,47 @@
+.responsive-image-column li{
+    float:left;
+    padding-right: 1px;
+}
+
+.responsive-image-column li img{
+    width: 81px;
+    height: 81px;
+}
+
+.filelist {
+    width: 60%;
+}
+.filelist .file {
+    padding: 5px;
+    background: #ececec;
+    border: solid 1px #ccc;
+    margin-bottom: 4px;
+}
+.filelist .fileprogress {
+    width: 0%;
+    background: #B7C53D;
+    height: 5px;
+}
+.plupload-thumbs {
+
+}
+.plupload-thumbs .thumb {
+    padding-right: 5px;
+    float: left;
+    text-align: center;
+}
+.plupload-thumbs .thumb img {
+    width: 170px;
+    height: 170px;
+}
+.ui-sortable  .thumb img {
+    cursor: move;
+}
+.ui-sortable  .thumb img:hover {
+    opacity: 0.8;
+}
+
+
+.thumbi a{
+    text-decoration: none;
+}
